@@ -418,50 +418,7 @@
     text-transform:uppercase;
   }
   .pod-meta b{color:var(--teal); font-weight:500;}
-
-  /* ---------- CONTACT / CALL SHEET ---------- */
-  .contact{
-    background:var(--bg-alt);
-    border:1px solid var(--line);
-    border-radius:6px;
-    padding:40px;
-  }
-  @media (max-width:600px){
-    .contact{padding:26px;}
-  }
-  .contact-top{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    flex-wrap:wrap;
-    gap:24px;
-    margin-bottom:30px;
-    padding-bottom:26px;
-    border-bottom:1px dashed var(--line);
-  }
-  .contact h2{
-    font-family:'Fraunces', serif;
-    font-size:clamp(26px,4vw,38px);
-    color:var(--paper);
-    max-width:14ch;
-    line-height:1.1;
-  }
-  .contact-rows{
-    display:flex;
-    flex-direction:column;
-    gap:14px;
-  }
-  .contact-row{
-    display:flex;
-    justify-content:space-between;
-    font-size:14px;
-    padding-bottom:14px;
-    border-bottom:1px solid var(--line-soft);
-  }
-  .contact-row:last-child{border-bottom:none; padding-bottom:0;}
-  .contact-row .label{ color:var(--ink-dim); text-transform:uppercase; font-size:11px; }
-  .contact-row a{ color:var(--paper); transition:color .2s; }
-  .contact-row a:hover{ color:var(--gold); }
+  
 
   footer{
     padding:34px 0 60px;
@@ -481,9 +438,7 @@
       <a href="#work">Drama Series</a>
       <a href="#commercials">Commercials</a>
       <a href="#podcast">Podcast</a>
-      <a href="#contact">Contact</a>
     </div>
-    <a href="#contact" class="nav-cta mono">Book A Project</a>
   </div>
 </nav>
 
@@ -504,8 +459,7 @@
 
         <div class="hero-actions">
           <a href="#work" class="btn btn-primary">View the work</a>
-          <a href="#contact" class="btn btn-ghost">Get in touch</a>
-        </div>
+      </div>
 
       </div>
     </div>
@@ -625,7 +579,7 @@
         </div>
         <span class="arrow">→</span>
       </a>
-      <a class="strip-item" href="#contact">
+      <a class="strip-item" href="#">
         <span class="num">03</span>
         <div>
           <h4>Glowelt Farms &amp; Allied Services</h4>
@@ -663,29 +617,6 @@
       </div>
     </div>
   </div>
-</section>
-
-<!-- CONTACT -->
-<section class="scene" id="contact">
-  <div class="wrap">
-    <div class="scene-head">
-      <h2 class="scene-title display">Contacts</h2>
-      <div class="scene-rule"></div>
-    </div>
-
-    <div class="contact">
-      <div class="contact-top">
-        <h2>Let's put your next project into production.</h2>
-      </div>
-      <div class="contact-rows mono">
-        <div class="contact-row"><span class="label">Email</span><a href="edugodsent.official@gmail.com">edugodsent.official@gmail.com</a></div>
-        <div class="contact-row"><span class="label">WhatsApp</span><a href="https://wa.me/2348034335599" target="_blank" rel="noopener">+2348034335599</a></div>
-        <div class="contact-row"><span class="label">TikTok</span><a href="https://tiktok.com/@edugodsent_tv" target="_blank" rel="noopener">@edugodsent_tv</a></div>
-        <div class="contact-row"><span class="label">Based in</span><span>Nigeria</span></div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <footer>
   <div class="wrap mono">© <span id="year"></span> Edugodsent Productions — Produced with <span class="gold">care</span>, frame by frame.</div>
